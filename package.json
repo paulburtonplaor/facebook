@@ -1,0 +1,21 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "Facebook",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0-dev"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}

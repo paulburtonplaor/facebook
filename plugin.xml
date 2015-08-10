@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="facebook" version="1.0.0">
+  <name>Facebook</name>
+  <description>Facebook</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova</keywords>
+
+  <engines>
+    <engine name="cordova-android" version=">=4.0.0-dev" />
+  </engines>
+
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Facebook" >
+        <param name="android-package" value="com.plaor.plugins.Facebook"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Facebook.java" target-dir="src/com/plaor/plugins/" />
+  </platform>
+</plugin>
